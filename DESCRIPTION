@@ -1,27 +1,25 @@
 Package: mdbr
 Title: Work with Microsoft Access Files
-Version: 0.1.2
+Version: 0.2.1
 Authors@R: 
-    person(given = "Kiernan",
-           family = "Nicholls",
-           role = c("aut", "cre"),
-           email = "kiernann@protonmail.com")
+    person("Kiernan", "Nicholls", email = "k5cents@gmail.com", role = c("aut", "cre", "cph"),
+           comment = c(ORCID = "0000-0002-9229-7897"))
 Description: Use the open source 'MDB Tools' utilities
     <https://github.com/mdbtools/mdbtools/>. Primarily used for converting
     proprietary Microsoft Access files to simple text files and then
     reading those as data frames.
 License: GPL-3
-URL: https://github.com/kiernann/mdbr
-BugReports: https://github.com/kiernann/mdbr/issues
+URL: https://k5cents.github.io/mdbr/, https://github.com/k5cents/mdbr
+BugReports: https://github.com/k5cents/mdbr/issues
 Imports: readr
 Suggests: testthat
 Encoding: UTF-8
-LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.1
 SystemRequirements: mdbtools: mdbtools (deb).
 NeedsCompilation: no
-Packaged: 2020-11-03 14:54:08 UTC; kiernan
-Author: Kiernan Nicholls [aut, cre]
-Maintainer: Kiernan Nicholls <kiernann@protonmail.com>
+Packaged: 2024-03-12 02:49:25 UTC; kiernan
+Author: Kiernan Nicholls [aut, cre, cph]
+    (<https://orcid.org/0000-0002-9229-7897>)
+Maintainer: Kiernan Nicholls <k5cents@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-11-09 09:30:02 UTC
+Date/Publication: 2024-03-12 08:00:02 UTC
