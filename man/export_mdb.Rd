@@ -21,10 +21,10 @@ export_mdb(
 
 \item{table}{Name of the table, list with \code{mdb_tables()}.}
 
-\item{output}{Path or connection to write to. Passed to the \code{stdout} argument
-of \code{\link[=system2]{system2()}}. Possible values are "", to the R console (the default),
-\code{NULL} or \code{FALSE} (discard output), \code{TRUE} (capture the output in a
-character vector) or a character string naming a file.}
+\item{output}{Controls where output is sent. \code{TRUE} (the default) returns
+the output as a character vector. \code{""} prints to the R console and returns
+invisibly. \code{NULL} or \code{FALSE} discards the output. A character string is
+treated as a file path to write to, returning the path invisibly.}
 
 \item{delim}{Delimiter used to separate values.}
 
@@ -42,7 +42,7 @@ the file. If \code{TRUE}, column names will be included.}
 Unix style newlines, or \code{"\\r\\n"} for Windows style newlines.}
 
 \item{date_format}{The format in which date columns are converted. MDB Tools
-uses the \code{strftime(3)} format, similar to \code{\link[readr:parse_datetime]{readr::parse_date()}}. No need to
+uses the \code{strftime(3)} format, similar to \code{\link[readr:parse_date]{readr::parse_date()}}. No need to
 specify whole string. Defaults to ISO8601.}
 }
 \value{
