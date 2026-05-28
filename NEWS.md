@@ -1,3 +1,5 @@
+# mdbr 0.3.1
+
 # mdbr 0.3.0
 
 * The `mdbtools` C library is now compiled and bundled with the package.
