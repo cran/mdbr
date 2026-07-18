@@ -1,6 +1,6 @@
 Package: mdbr
 Title: Work with Microsoft Access Files
-Version: 0.3.1
+Version: 0.3.2
 Authors@R: c(
     person("Kiernan", "Nicholls", email = "k5cents@gmail.com", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0000-0002-9229-7897")),
@@ -24,10 +24,10 @@ NeedsCompilation: yes
 SystemRequirements: GNU make
 Config/testthat/edition: 3
 Config/roxygen2/version: 8.0.0
-Packaged: 2026-05-24 00:35:50 UTC; kiernan
+Packaged: 2026-07-18 16:33:44 UTC; kiernan
 Author: Kiernan Nicholls [aut, cre, cph] (ORCID:
     <https://orcid.org/0000-0002-9229-7897>),
   Bruno Tremblay [ctb] (DBI interface and bundled mdbtools source)
 Maintainer: Kiernan Nicholls <k5cents@gmail.com>
 Repository: CRAN
-Date/Publication: 2026-05-28 11:00:08 UTC
+Date/Publication: 2026-07-18 17:00:08 UTC

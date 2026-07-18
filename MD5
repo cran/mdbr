@@ -1,6 +1,6 @@
-ee637d2115cfaeb10c8935ec8d6c8f7a *DESCRIPTION
+5ab67da8d6cc76d289d3637503b01446 *DESCRIPTION
 79479d9a79cad736568e188ee1fa45d1 *NAMESPACE
-84556fabecd68a2f05b7dfe9481e7b2a *NEWS.md
+7451d0b54fdebe27cc64b62ebfb75a6c *NEWS.md
 ca35a35267863829e778a5f5328a1791 *R/advanced.R
 47bed4f4be63124d1ebbab6c7f031fd9 *R/dbi.R
 6a6b0e7fe3b106fd7bd56966157d47c9 *R/example.R
@@ -56,7 +56,7 @@ b903ea03f12465d5850036d50d2c4f93 *src/mdbtools/src/libmdb/Makefile.am
 423dcfe590d1503fea254ba267e4d167 *src/mdbtools/src/libmdb/catalog.c
 a9c64b4b156162600f4ebd73d195223d *src/mdbtools/src/libmdb/data.c
 20db767998207f119f188273bcbb8b65 *src/mdbtools/src/libmdb/dump.c
-5d1bc62c54df5bf91286c495d76d1eeb *src/mdbtools/src/libmdb/fakeglib.c
+b5110627c6f60b9f4a343e37f7bdcd1e *src/mdbtools/src/libmdb/fakeglib.c
 f5770d7486cbf5ff220bffc5dddc8559 *src/mdbtools/src/libmdb/file.c
 7452ee3c1e7eb3aa7e4bd222d6cff08f *src/mdbtools/src/libmdb/iconv.c
 70869ee58f05409174b915fede0458f1 *src/mdbtools/src/libmdb/index.c
