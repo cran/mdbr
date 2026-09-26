@@ -1,3 +1,32 @@
+# mdbr 0.4.0
+
+## Breaking changes
+
+* Binary and OLE fields are now returned as list columns of raw vectors
+  instead of character strings (#18).
+
+* Empty text values are now returned as `""` instead of `NA`. Only NULL values
+  become `NA` (#18).
+
+* `mdb_example()` now returns the bundled Northwind database (`nwind.mdb`).
+  The nycflights13 example file has been removed (#18).
+
+## New features
+
+* New `mdb_stream_table()` opens a table as a DBI result that can be read in
+  batches with `DBI::dbFetch()`, keeping memory use bounded for large tables.
+  `dbReadTable()` and `read_mdb()` now read through the same cursor. SQL
+  queries sent with `dbSendQuery()` are still read in full (#18, @meztez).
+
+## Bug fixes
+
+* `dbFetch()` now advances through `dbSendQuery()` results across successive
+  calls, and `dbHasCompleted()` reports completion correctly (#18).
+
+* `dbFetch()` accepts `n = 0` and returns a zero-row data frame with the
+  correct column types. `dbIsValid()` is now `FALSE` after `dbClearResult()`
+  (#18).
+
 # mdbr 0.3.2
 
 * Fix `const` qualifier warning in `fakeglib.c` flagged by GCC 16 on Fedora (#17).
